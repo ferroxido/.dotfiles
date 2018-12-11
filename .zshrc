@@ -8,17 +8,18 @@
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel9k/powerlevel9k"
-
 # powerlevel config
-POWERLEVEL9K_MODE='awesome-patched'
-# POWERLEVEL9K_MODE='awesome-fontconfig'
+# POWERLEVEL9K_MODE='awesome-patched'
+POWERLEVEL9K_MODE='awesome-fontconfig'
+# POWERLEVEL9K_MODE='nerdfont-complete'
+# POWERLEVEL9K_MODE='nerd-fontconfig'
+POWERLEVEL9K_PYTHON_ICON='\U1F40D ' # 🐍
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
 POWERLEVEL9K_STATUS_VERBOSE=false
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status ram time)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv user dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status battery ram time)
 POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S %d/%m/%Y}"
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
